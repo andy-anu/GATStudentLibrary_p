@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">GATStudentLibrary_p</string>
+    <string-array name="css_sem_1">
+        <item>C</item>
+    </string-array>
+
+    <string-array name="css_sem_1_link">
+        <item>http://www.kciti.edu/wp-content/uploads/2017/07/cprogramming_tutorial.pdf</item>
+    </string-array>
+    <string-array name="branch_names">
+        <item>CS</item>
+        <item>ISC</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>CIVIL</item>
+        <item>MECH</item>
+        <item>Basic Science</item>
+    </string-array>
+    <string-array name="sem_name">
+        <item>Semester 1</item>
+        <item>Semester 2</item>
+        <item>Semester 3</item>
+        <item>Semester 4</item>
+        <item>Semester 5</item>
+        <item>Semester 6</item>
+        <item>Semester 7</item>
+        <item>Semester 8</item>
+    </string-array>
+
+    <string-array name="cs_sub">
+        <item>CS Subject 1</item>
+        <item>CS Subject 2</item>
+        <item>CS Subject 3</item>
+        <item>CS Subject 4</item>
+        <item>CS Subject 5</item>
+    </string-array>
+    <string name="title_activity_subject">Subject</string>
+</resources>
