@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name">GATStudentLibrary_p</string>
-    <string-array name="css_sem_1">
+    <string-array name="cs_1">
         <item>C</item>
     </string-array>
 
-    <string-array name="css_sem_1_link">
+    <string-array name="cs_1_link">
         <item>http://www.kciti.edu/wp-content/uploads/2017/07/cprogramming_tutorial.pdf</item>
     </string-array>
+
     <string-array name="branch_names">
         <item>CS</item>
         <item>ISC</item>
@@ -16,6 +17,7 @@
         <item>MECH</item>
         <item>Basic Science</item>
     </string-array>
+
     <string-array name="sem_name">
         <item>Semester 1</item>
         <item>Semester 2</item>

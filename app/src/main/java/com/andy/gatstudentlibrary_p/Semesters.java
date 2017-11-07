@@ -8,16 +8,15 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-public class Years extends AppCompatActivity implements AdapterView.OnItemClickListener {
+public class Semesters extends AppCompatActivity implements AdapterView.OnItemClickListener {
     ListView list;
     String Branch;
     TextView heading;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_years);
+        setContentView(R.layout.activity_semesters);
         Intent intent = getIntent();
         if (intent != null) {
             Branch =intent.getStringExtra("branchName");
@@ -33,7 +32,7 @@ public class Years extends AppCompatActivity implements AdapterView.OnItemClickL
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Intent downloadBook = new Intent(Years.this,Subject.class);
+        Intent downloadBook = new Intent(Semesters.this,Subject.class);
         downloadBook.putExtra("Branch",Branch);
         downloadBook.putExtra("sem",position);
         startActivity(downloadBook);

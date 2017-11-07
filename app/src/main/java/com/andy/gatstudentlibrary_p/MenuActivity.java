@@ -29,7 +29,7 @@ public class MenuActivity extends AppCompatActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Intent intent =new Intent(this,Years.class);
+        Intent intent =new Intent(this,Semesters.class);
         ViewHolder holder= (ViewHolder) view.getTag();
         SingleItem temp= (SingleItem) holder.image.getTag();
         intent.putExtra("branchName",temp.branchName);

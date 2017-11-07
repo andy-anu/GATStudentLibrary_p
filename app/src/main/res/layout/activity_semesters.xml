@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.andy.gatstudentlibrary_p.Years"
+    tools:context="com.andy.gatstudentlibrary_p.Semesters"
     android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"

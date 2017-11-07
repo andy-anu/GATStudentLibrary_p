@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MenuActivity" />
-        <activity android:name=".Years" />
+        <activity android:name=".Semesters" />
         <activity android:name=".Subject"></activity>
     </application>
 
